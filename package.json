@@ -1,0 +1,35 @@
+{
+  "name": "xon",
+  "version": "0.0.1",
+  "description": "fiXture Object Notation",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "expect.js": "~0.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaredly/xon.git"
+  },
+  "keywords": [
+    "fixture",
+    "generate",
+    "json",
+    "lorem",
+    "ipsum",
+    "prototype",
+    "wireframe",
+    "mongo"
+  ],
+  "author": "Jared Forsyth <jared@jaredforsyth.com>",
+  "license": "Apache v2",
+  "bugs": {
+    "url": "https://github.com/jaredly/xon/issues"
+  }
+}
