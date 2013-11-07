@@ -14,4 +14,8 @@ lint:
 test: lint
 	@mocha -R spec
 
+coverage:
+	@mocha -r blanket -R html-cov > coverage.html
+	@xdg-open coverage.html
+
 .PHONY: clean
