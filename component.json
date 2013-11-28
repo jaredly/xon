@@ -4,7 +4,9 @@
   "description": "fiXture Object Notation",
   "version": "0.0.1",
   "keywords": [],
-  "dependencies": {},
+  "dependencies": {
+    "knicklabs/lorem-ipsum.js": "*"
+  },
   "development": {},
   "license": "MIT",
   "main": "index.js",
@@ -13,5 +15,6 @@
     "lib/index.js",
     "lib/image.js",
     "lib/consts.js"
-  ]
+  ],
+  "remotes": []
 }
